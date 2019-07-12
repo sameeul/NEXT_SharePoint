@@ -54,13 +54,16 @@
   </ol>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=ShareBoot');"></div>
+      <div class="fill" style="background-image:url('https://plconnect.industrysoftware.automation.siemens.com/coi/DiversityERG/NEXT/SiteAssets/images/1.png');"></div>
     </div>
     <div class="carousel-item">
-      <div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Responsive');"></div>
+      <div class="fill" style="background-image:url('https://plconnect.industrysoftware.automation.siemens.com/coi/DiversityERG/NEXT/SiteAssets/images/2.png');"></div>
     </div>
     <div class="carousel-item">
-      <div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Mobile First');"></div>
+      <div class="fill" style="background-image:url('https://plconnect.industrysoftware.automation.siemens.com/coi/DiversityERG/NEXT/SiteAssets/images/3.png');"></div>
+    </div>
+    <div class="carousel-item">
+      <div class="fill" style="background-image:url('https://plconnect.industrysoftware.automation.siemens.com/coi/DiversityERG/NEXT/SiteAssets/images/4.png');"></div>
     </div>
   </div>
   <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
