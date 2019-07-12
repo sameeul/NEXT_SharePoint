@@ -21,6 +21,9 @@
       <li class="nav-item active">
         <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
       </li>
+      <li class="nav-item anchor">
+        <a class="nav-link" id="link" href="https://plconnect.industrysoftware.automation.siemens.com/coi/DiversityERG/SitePages/Community%20Home.aspx">Diversity</a>
+      </li>
       <li class="nav-item">
         <a class="nav-link" href="#">Link</a>
       </li>
