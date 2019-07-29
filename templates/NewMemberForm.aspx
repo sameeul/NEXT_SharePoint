@@ -14,38 +14,7 @@
 <asp:Content ContentPlaceHolderId="PlaceHolderPageTitleInTitleArea" runat="server"><SharePointWebControls:FieldValue FieldName="Title" runat="server" /></asp:Content>
 
 
-<asp:Content ContentPlaceholderID="PlaceHolderTopNavBar" runat="server">
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item active anchor">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item anchor">
-      <li class="nav-item anchor">
-        <a class="nav-link" id="link" href="https://plconnect.industrysoftware.automation.siemens.com/coi/DiversityERG/SitePages/Community%20Home.aspx">Diversity</a>
-      </li>
-      <li class="nav-item anchor">
-        <a class="nav-link" id="link" href="https://www.yammer.com/siemens.com/#/threads/inGroup?type=in_group&feedId=17364746">Yammer</a>
-      </li>
-        <a class="nav-link" id="link" href="#" data-url="https://plconnect.industrysoftware.automation.siemens.com/coi/DiversityERG/NEXT/SiteAssets/Content_pages/Chapter/chapter_con_1.html">Link</a>
-      </li>
-      <li class="nav-item dropdown anchor">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Dropdown
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item anchor" href="#">Action</a>
-          <a class="dropdown-item anchor" href="#">Another action</a>
-          <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">Something else here</a>
-        </div>
-      </li>
-      <li class="nav-item anchor">
-        <a class="nav-link disabled" href="#">Disabled</a>
-      </li>
-    </ul>
-  </div>
-	
+<asp:Content ContentPlaceholderID="PlaceHolderTopNavBar" runat="server">	
 </asp:Content>
 
 <asp:Content ContentPlaceHolderId="PlaceHolderMain" runat="server">

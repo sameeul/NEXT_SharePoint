@@ -63,6 +63,70 @@
 		<div class="navbar-header">
 	        <a class="navbar-brand" href="/coi/DiversityERG/NEXT/SitePages/Home.aspx">US NEXT</a>
 		</div>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav mr-auto">
+<!--              -->
+<!-- Members Menu -->
+<!--              -->
+                     <li class="nav-item dropdown">
+                       <a class="nav-link dropdown-toggle" href="#" id="navbarmembers" data-toggle="dropdown">
+                         Members
+                       </a>
+                       <div class="dropdown-menu">
+                         <a class="dropdown-item" href="#">Link 1</a>
+                         <a class="dropdown-item" href="#">Link 2</a>
+                         <a class="dropdown-item" href="#">Link 3</a>
+                       </div>
+                    </li>
+<!--               -->
+<!-- Chapters Menu -->
+<!--               -->
+                     <li class="nav-item dropdown">
+                       <a class="nav-link dropdown-toggle" href="#" id="navbarchapters" data-toggle="dropdown">
+                         Chapters
+                       </a>
+                       <div class="dropdown-menu">
+                         <a class="dropdown-item" href="#">Link 1</a>
+                         <a class="dropdown-item" href="#">Link 2</a>
+                         <a class="dropdown-item" href="#">Link 3</a>
+                       </div>
+                    </li>
+
+<!--              -->
+<!-- News Menu    -->
+<!--              -->
+                     <li class="nav-item dropdown">
+                       <a class="nav-link dropdown-toggle" href="#" id="navbarnews" data-toggle="dropdown">
+                         News
+                       </a>
+                       <div class="dropdown-menu">
+                         <a class="dropdown-item" href="#">Link 1</a>
+                         <a class="dropdown-item" href="#">Link 2</a>
+                         <a class="dropdown-item" href="#">Link 3</a>
+                       </div>
+                    </li>
+<!--               -->
+<!-- About US Menu -->
+<!--               -->
+                     <li class="nav-item dropdown">
+                       <a class="nav-link dropdown-toggle" href="#" id="navbaraboutus" data-toggle="dropdown">
+                         About US
+                       </a>
+                       <div class="dropdown-menu">
+                         <a class="dropdown-item" href="#">Link 1</a>
+                         <a class="dropdown-item" href="#">Link 2</a>
+                         <a class="dropdown-item" href="#">Link 3</a>
+                       </div>
+                    </li>
+<!-- Link to Diversity -->
+      <li class="nav-item anchor">
+        <a class="nav-link" id="link" href="https://plconnect.industrysoftware.automation.siemens.com/coi/DiversityERG/SitePages/Community%20Home.aspx">Diversity</a>
+      </li>
+<!-- Link to Yammer -->
+      <li class="nav-item anchor">
+        <a class="nav-link" id="link" href="https://www.yammer.com/siemens.com/#/threads/inGroup?type=in_group&feedId=17364746">Yammer</a>
+      </li> 
+ 
 		<asp:ContentPlaceHolder id="PlaceHolderTopNavBar"  runat="server"> </asp:ContentPlaceHolder>
 	</div>
 
