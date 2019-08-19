@@ -15,67 +15,65 @@
 
 
 <asp:Content ContentPlaceholderID="PlaceHolderTopNavBar" runat="server">
-
 </asp:Content>
 
 <asp:Content ContentPlaceHolderId="PlaceHolderMain" runat="server">
 
-   <script src="https://plconnect.industrysoftware.automation.siemens.com/_layouts/jquery/jquery-1.10.2.min.js"></script>
-
-    <div class="row">
-        <div class="col-lg-8">
-          <iframe src="" frameborder="0" id="mainFrame" name="mainFrame"></iframe>
-	</div>
-    </div>
-<script type="text/javascript">
-    $("link").click(function() {
-        ("#mainFrame").attr("src","https://plconnect.industrysoftware.automation.siemens.com/coi/DiversityERG/NEXT/SiteAssets/Content_pages/Chapter/chapter_con_1.html" ));
-    })
-</script>
-    <div class="row">
-        <div class="col-lg-12"><PublishingWebControls:EditModePanel runat="server" CssClass="edit-mode-panel title-edit"><SharePointWebControls:TextField runat="server" FieldName="Title"/></PublishingWebControls:EditModePanel></div>
-    </div>
- 
-
-   <div class="row">
-        <div class="col-lg-12"><PublishingWebControls:RichHtmlField FieldName="PublishingPageContent" HasInitialFocus="True" MinimumEditHeight="200px" runat="server"/></div>
-    </div> 
-
-    <div class="row">
-        <div class="col-lg-9"><WebPartPages:WebPartZone runat="server" Title="Zone 1" ID="Header"/></div>
-        <div class="col-lg-3"><WebPartPages:WebPartZone runat="server" Title="Zone 2" ID="RightColumn" Orientation="Vertical"/></div>
-    </div>
-
-    <div class="row">
-        <div class="col-lg-6"><WebPartPages:WebPartZone runat="server" Title="Zone 3" ID="TopLeftRow" /></div>
-        <div class="col-lg-6"><WebPartPages:WebPartZone runat="server" Title="Zone 4" ID="TopRightRow" /></div>
-    </div>
-
-    <div class="row">
-        <div class="col-lg-4"><WebPartPages:WebPartZone runat="server" Title="Zone 5" ID="CenterLeftColumn" /></div>
-        <div class="col-lg-4"><WebPartPages:WebPartZone runat="server" Title="Zone 6" ID="CenterColumn" /></div>
-        <div class="col-lg-4"><WebPartPages:WebPartZone runat="server" Title="Zone 7" ID="CenterRightColumn" /></div>
-    </div>
-
-    <div class="row"><div class="col-lg-12"><WebPartPages:WebPartZone runat="server" Title="Footer" ID="Footer"/></div></div>
-
-    <SharePointWebControls:ScriptBlock runat="server">if(typeof(MSOLayout_MakeInvisibleIfEmpty) == "function") {MSOLayout_MakeInvisibleIfEmpty();}</SharePointWebControls:ScriptBlock>
+<div class="jumbotron">
+  <div class="container text-center">
+    <h1>NEXT IMPACTS EVERYONE</h1>      
+    <p>NEXT Impacts everyone in many different ways, like Aliquam hac dictumst tincidunt torquent in aliquam ullamcorper faucibus, </p>
+      <p> habitant amet convallis massa ultrices est eros adipiscing pretium, tempor aptent est fames potenti volutpat lacinia.</p>
+  </div>
 </div>
+  
+<div class="container text-center">    
+  <h1>Success Stories</h1><br>
+  <div class="row">
+    <div class="col-sm-4">
+      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+       
+      <h3>Event</h3>
+        <p>Tempor pellentesque suspendisse tincidunt habitasse in augue sit curabitur vestibulum, a eleifend bibendum ullamcorper faucibus donec congue in platea donec, ultrices auctor nisl ut neque porta curabitur maecenas.</p>
+    </div>
+    <div class="col-sm-4"> 
+      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+      <h3>People</h3> 
+         <p>Tempor pellentesque suspendisse tincidunt habitasse in augue sit curabitur vestibulum, a eleifend bibendum ullamcorper faucibus donec congue in platea donec, ultrices auctor nisl ut neque porta curabitur maecenas.</p>
+    </div>
+    <div class="col-sm-4"> 
+      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+      <h3>Chapter</h3> 
+         <p>Tempor pellentesque suspendisse tincidunt habitasse in augue sit curabitur vestibulum, a eleifend bibendum ullamcorper faucibus donec congue in platea donec, ultrices auctor nisl ut neque porta curabitur maecenas.</p>
+    </div>
+  </div>
+</div><br>
+
+
+<footer class="container-fluid text-center">
+  <button type="button" class="btn btn-secondary">JOIN NEXT</button>
+    <button type="button" class="btn btn-info"> OUR EVENTS</button>
+
+</footer>
+
+
+
+  
 <script type="text/javascript">
-document.getElementById("link").addEventListener("click", function(event) 
+document.getElementById("link").addEventListener("click", function(event)
 {
     event.preventDefault();
     refreshElement('https://plconnect.industrysoftware.automation.siemens.com/coi/DiversityERG/NEXT/SiteAssets/Content_pages/Chapter/chapter_con_1.html');
 });
 
-function refreshElement(url) 
+function refreshElement(url)
 {
   var xhttp = new XMLHttpRequest();
-  xhttp.onreadystatechange = function() 
+  xhttp.onreadystatechange = function()
   {
-    if (this.readyState == 4 && this.status == 200) 
+    if (this.readyState == 4 && this.status == 200)
 	{
-		var htmlToAppend = this.responseURL;	    
+		var htmlToAppend = this.responseURL;
 		var webpartdiv = document.getElementById("MSOZoneCell_WebPartWPQ1");
 		webpartdiv.innerHTML = this.response;
     }
