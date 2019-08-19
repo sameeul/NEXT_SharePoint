@@ -65,19 +65,6 @@
 		</div>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                   <ul class="navbar-nav mr-auto">
-<!--              -->
-<!-- Members Menu -->
-<!--              -->
-                     <li class="nav-item dropdown">
-                       <a class="nav-link dropdown-toggle" href="#" id="navbarmembers" data-toggle="dropdown">
-                         Members
-                       </a>
-                       <div class="dropdown-menu">
-                         <a class="dropdown-item" href="#">Link 1</a>
-                         <a class="dropdown-item" href="#">Link 2</a>
-                         <a class="dropdown-item" href="#">Link 3</a>
-                       </div>
-                    </li>
 <!--               -->
 <!-- Chapters Menu -->
 <!--               -->
@@ -86,23 +73,40 @@
                          Chapters
                        </a>
                        <div class="dropdown-menu">
-                         <a class="dropdown-item" href="#">Link 1</a>
-                         <a class="dropdown-item" href="#">Link 2</a>
-                         <a class="dropdown-item" href="#">Link 3</a>
+                         <a class="dropdown-item" href="#">Starting a Chapter</a>
+                         <a class="dropdown-item" href="#">Current Chapters</a>
+                         <a class="dropdown-item" href="#">Getting Funding for Events</a>
                        </div>
                     </li>
 
 <!--              -->
-<!-- News Menu    -->
+<!-- Events Menu  -->
 <!--              -->
                      <li class="nav-item dropdown">
                        <a class="nav-link dropdown-toggle" href="#" id="navbarnews" data-toggle="dropdown">
                          News
                        </a>
                        <div class="dropdown-menu">
-                         <a class="dropdown-item" href="#">Link 1</a>
-                         <a class="dropdown-item" href="#">Link 2</a>
-                         <a class="dropdown-item" href="#">Link 3</a>
+                         <a class="dropdown-item" href="#">Upcoming Events</a>
+                         <a class="dropdown-item" href="#">Recent Events</a>
+                         <a class="dropdown-item" href="#">Archives</a>
+                       </div>
+                    </li>
+<!--              -->
+<!--Resource Menu -->
+<!--              -->
+                     <li class="nav-item dropdown">
+                       <a class="nav-link dropdown-toggle" href="#" id="navbarmembers" data-toggle="dropdown">
+                         Resources
+                       </a>
+                       <div class="dropdown-menu">
+                         <a class="dropdown-item" href="#">Career Bootcamp</a>
+                         <a class="dropdown-item" href="#">Building Your Brand</a>
+                         <a class="dropdown-item" href="#">Email Etiquette</a>
+                         <a class="dropdown-item" href="#">Business Etiquette</a>
+                         <a class="dropdown-item" href="#">Career Development Plan</a>
+                         <a class="dropdown-item" href="#">Mentoring</a>
+                         <a class="dropdown-item" href="#">Siemens Toolkit</a>
                        </div>
                     </li>
 <!--               -->
@@ -113,18 +117,18 @@
                          About US
                        </a>
                        <div class="dropdown-menu">
-                         <a class="dropdown-item" href="#">Link 1</a>
-                         <a class="dropdown-item" href="#">Link 2</a>
-                         <a class="dropdown-item" href="#">Link 3</a>
+                         <a class="dropdown-item" href="#">About NEXT</a>
+                         <a class="dropdown-item" href="#">Leadership Team</a>
+                         <a class="dropdown-item" href="#">Our Impact</a>
                        </div>
                     </li>
 <!-- Link to Diversity -->
       <li class="nav-item anchor">
-        <a class="nav-link" id="link" href="https://plconnect.industrysoftware.automation.siemens.com/coi/DiversityERG/SitePages/Community%20Home.aspx">Diversity</a>
+        <a class="nav-link navbar-right" id="Diversitylink" href="https://plconnect.industrysoftware.automation.siemens.com/coi/DiversityERG/SitePages/Community%20Home.aspx">Diversity</a>
       </li>
 <!-- Link to Yammer -->
       <li class="nav-item anchor">
-        <a class="nav-link" id="link" href="https://www.yammer.com/siemens.com/#/threads/inGroup?type=in_group&feedId=17364746">Yammer</a>
+        <a class="nav-link navbar-right" id="Yammerlink" href="https://www.yammer.com/siemens.com/#/threads/inGroup?type=in_group&feedId=17364746">Yammer</a>
       </li> 
  
 		<asp:ContentPlaceHolder id="PlaceHolderTopNavBar"  runat="server"> </asp:ContentPlaceHolder>
