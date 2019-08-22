@@ -19,7 +19,7 @@
 
 <asp:Content ContentPlaceHolderId="PlaceHolderMain" runat="server">
 
-<div class="jumbotron">
+<div class="jumbotron" style="width:70%;margin:auto">
   <div class="container text-center">
     <h1>NEXT IMPACTS EVERYONE</h1>      
     <p>NEXT Impacts everyone in many different ways, like Aliquam hac dictumst tincidunt torquent in aliquam ullamcorper faucibus, </p>
