@@ -55,6 +55,15 @@
 <SharePoint:SPSecurityTrimmedControl runat="server" AuthenticationRestrictions="AnonymousUsersOnly"><wssuc:Welcome runat="server" EnableViewState="false" /></SharePoint:SPSecurityTrimmedControl>
 
 <div id="s4-workspace">
+<!-- Set up height -->
+<script type="text/javascript">
+function resizeDivs() {
+    var viewHight = $( window ).height()-50;
+    document.getElementById('s4-workspace').style.height  = viewHight + 'px'
+}
+window.onload = resizeDivs;
+</script>
+
 <div id="s4-bodyContainer">
 
 <!-- Start Top Navigation -->
