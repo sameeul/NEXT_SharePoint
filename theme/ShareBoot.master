@@ -62,6 +62,7 @@ function resizeDivs() {
     document.getElementById('s4-workspace').style.height  = viewHight + 'px'
 }
 window.onload = resizeDivs;
+window.addEventListener("resize", resizeDivs);
 </script>
 
 <div id="s4-bodyContainer">
