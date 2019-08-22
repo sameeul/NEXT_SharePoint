@@ -71,7 +71,7 @@ window.addEventListener("resize", resizeDivs);
    <nav class="navbar navbar-expand-lg navbar-light bg-light" role="navigation">
 	<div class="container">
 		<div class="navbar-header">
-	        <a class="navbar-brand" href="/coi/DiversityERG/NEXT/SitePages/Home.aspx">US NEXT</a>
+	        <a class="navbar-brand" href="/coi/DiversityERG/NEXT/Pages/NEXT-Home.aspx">US NEXT</a>
 		</div>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                   <ul class="navbar-nav mr-auto">
@@ -83,9 +83,9 @@ window.addEventListener("resize", resizeDivs);
                          Chapters
                        </a>
                        <div class="dropdown-menu">
-                         <a class="dropdown-item" href="#">Starting a Chapter</a>
-                         <a class="dropdown-item" href="#">Current Chapters</a>
-                         <a class="dropdown-item" href="#">Getting Funding for Events</a>
+                         <a class="dropdown-item" href="/coi/DiversityERG/NEXT/Pages/NEXT-Template.aspx">Starting a Chapter</a>
+                         <a class="dropdown-item" href="/coi/DiversityERG/NEXT/Pages/NEXT-Template.aspx">Current Chapters</a>
+                         <a class="dropdown-item" href="/coi/DiversityERG/NEXT/Pages/NEXT-Template.aspx">Getting Funding for Events</a>
                        </div>
                     </li>
 
@@ -97,9 +97,9 @@ window.addEventListener("resize", resizeDivs);
                          News
                        </a>
                        <div class="dropdown-menu">
-                         <a class="dropdown-item" href="#">Upcoming Events</a>
-                         <a class="dropdown-item" href="#">Recent Events</a>
-                         <a class="dropdown-item" href="#">Archives</a>
+                         <a class="dropdown-item" href="/coi/DiversityERG/NEXT/Pages/NEXT-Template.aspx">Upcoming Events</a>
+                         <a class="dropdown-item" href="/coi/DiversityERG/NEXT/Pages/NEXT-Template.aspx">Recent Events</a>
+                         <a class="dropdown-item" href="/coi/DiversityERG/NEXT/Pages/NEXT-Template.aspx">Archives</a>
                        </div>
                     </li>
 <!--              -->
@@ -110,13 +110,13 @@ window.addEventListener("resize", resizeDivs);
                          Resources
                        </a>
                        <div class="dropdown-menu">
-                         <a class="dropdown-item" href="#">Career Bootcamp</a>
-                         <a class="dropdown-item" href="#">Building Your Brand</a>
-                         <a class="dropdown-item" href="#">Email Etiquette</a>
-                         <a class="dropdown-item" href="#">Business Etiquette</a>
-                         <a class="dropdown-item" href="#">Career Development Plan</a>
-                         <a class="dropdown-item" href="#">Mentoring</a>
-                         <a class="dropdown-item" href="#">Siemens Toolkit</a>
+                         <a class="dropdown-item" href="/coi/DiversityERG/NEXT/Pages/NEXT-Template.aspx">Career Bootcamp</a>
+                         <a class="dropdown-item" href="/coi/DiversityERG/NEXT/Pages/NEXT-Template.aspx">Building Your Brand</a>
+                         <a class="dropdown-item" href="/coi/DiversityERG/NEXT/Pages/NEXT-Template.aspx">Email Etiquette</a>
+                         <a class="dropdown-item" href="/coi/DiversityERG/NEXT/Pages/NEXT-Template.aspx">Business Etiquette</a>
+                         <a class="dropdown-item" href="/coi/DiversityERG/NEXT/Pages/NEXT-Template.aspx">Career Development Plan</a>
+                         <a class="dropdown-item" href="/coi/DiversityERG/NEXT/Pages/NEXT-Template.aspx">Mentoring</a>
+                         <a class="dropdown-item" href="/coi/DiversityERG/NEXT/Pages/NEXT-Template.aspx">Siemens Toolkit</a>
                        </div>
                     </li>
 <!--               -->
@@ -127,7 +127,7 @@ window.addEventListener("resize", resizeDivs);
                          About US
                        </a>
                        <div class="dropdown-menu">
-                         <a class="dropdown-item" href="#">About NEXT</a>
+                         <a class="dropdown-item" href="/coi/DiversityERG/NEXT/Pages/NEXT-Template.aspx">About NEXT</a>
                          <a class="dropdown-item" href="/coi/DiversityERG/NEXT/Pages/NEXT-Leadership.aspx">Leadership Team</a>
                          <a class="dropdown-item" href="/coi/DiversityERG/NEXT/Pages/Impact.aspx">Our Impact</a>
                        </div>
