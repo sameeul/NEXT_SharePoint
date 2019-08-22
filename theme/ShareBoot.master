@@ -128,8 +128,8 @@ window.addEventListener("resize", resizeDivs);
                        </a>
                        <div class="dropdown-menu">
                          <a class="dropdown-item" href="#">About NEXT</a>
-                         <a class="dropdown-item" href="#">Leadership Team</a>
-                         <a class="dropdown-item" href="#">Our Impact</a>
+                         <a class="dropdown-item" href="/coi/DiversityERG/NEXT/Pages/NEXT-Leadership.aspx">Leadership Team</a>
+                         <a class="dropdown-item" href="/coi/DiversityERG/NEXT/Pages/Impact.aspx">Our Impact</a>
                        </div>
                     </li>
 <!-- Link to Diversity -->
