@@ -51,7 +51,7 @@
 
   </div>
   <div class="row" >
-    <h2 style="color:rgb(0, 100, 110); padding:15px"> Comunications Team </h2> 
+    <h2 style="color:rgb(0, 100, 110); padding:15px"> Communications Team </h2> 
   </div>
 
   <div class="row">
