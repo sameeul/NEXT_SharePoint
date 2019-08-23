@@ -20,10 +20,10 @@
 <asp:Content ContentPlaceHolderId="PlaceHolderMain" runat="server">
 
    <script src="https://plconnect.industrysoftware.automation.siemens.com/_layouts/jquery/jquery-1.10.2.min.js"></script>
-<div class="container">
+<div class="container" style="min-height:500px; margin-top:5%">
 	<div class="row" style="justify-content:center" >
         <div class="col-md-6 col-md-offset-3">
-            <form action="r" method="post" accept-charset="utf-8" class="form" role="form">   <legend style="text-align:center">  New Member Sign Up</legend>
+            <form action="r" method="post" accept-charset="utf-8" class="form" role="form">   <legend style="padding-bottom:10px;text-align:center">New Member Sign Up</legend>
                     <div style="margin-top:10px; margin-botom:10px">
                       <input type="text" name="fullname" value="" class="form-control input-lg" placeholder="Your Name"  />
                     </div>

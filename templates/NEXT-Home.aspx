@@ -50,6 +50,20 @@
   </a>
 </div>
 <!-- End Slides -->
+<div class="jumbotron" style="width:70%;margin:50px auto;max-width:1000px;background-color:white">
+  <div class="container text-center">
+    <h1>Message from the Leadership</h1>      
+    <p>Aliquam hac dictumst tincidunt torquent in aliquam ullamcorper faucibus, </p>
+      <p> habitant amet convallis massa ultrices est eros adipiscing pretium, tempor aptent est fames potenti volutpat lacinia.</p>
+  </div>
+</div>
+
+<footer class="container-fluid text-center">
+    <form>
+    <button type="submit" class="btn btn-secondary" formaction="https://plconnect.industrysoftware.automation.siemens.com/coi/DiversityERG/NEXT/Pages/signup.aspx" >JOIN NEXT</button>
+    </form>
+</footer>
+
 <style>
 .middle {
     top: 50%;

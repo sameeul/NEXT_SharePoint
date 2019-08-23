@@ -51,8 +51,9 @@
 
 
 <footer class="container-fluid text-center">
-  <button type="button" class="btn btn-secondary">JOIN NEXT</button>
+    <form>
+    <button type="submit" class="btn btn-secondary" formaction="https://plconnect.industrysoftware.automation.siemens.com/coi/DiversityERG/NEXT/Pages/signup.aspx" >JOIN NEXT</button>
     <button type="button" class="btn btn-info"> OUR EVENTS</button>
-
+    </form>
 </footer>
 </asp:Content>
