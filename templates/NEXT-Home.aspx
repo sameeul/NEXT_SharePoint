@@ -63,39 +63,4 @@
     <button type="submit" class="btn btn-secondary" formaction="https://plconnect.industrysoftware.automation.siemens.com/coi/DiversityERG/NEXT/Pages/signup.aspx" >JOIN NEXT</button>
     </form>
 </footer>
-
-<style>
-.middle {
-    top: 50%;
-    left: 50%;
-    text-align: center;
-	font-family: "Courier New", Courier, monospace;
-    font-size: 25px;
-}
-
-hr {
-    margin: auto;
-    width: 40%;
-}
-
-.logo {
-    display: flex;
-    justify-content: center;
-    padding-top: 20px;
-}
-.btn-lg
-{
-color: #fff;
-font-size:30px;
-border-radius : 50%;
-width : 150px;
-height : 150px;
-font-size : 25px;
-padding-top: 52.5px;
-margin-right : 30px;
-font-family: "Segoe UI","Segoe",Tahoma,Helvetica,Arial,sans-serif;
-font-weight: bold;
-}
-</style>
-
 </asp:Content>
