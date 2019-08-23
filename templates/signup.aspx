@@ -27,11 +27,8 @@
                     <div style="margin-top:10px; margin-botom:10px">
                       <input type="text" name="fullname" value="" class="form-control input-lg" placeholder="Your Name"  />
                     </div>
-                    <div class="input-group" style="margin-top:10px; margin-botom:10px">
+                    <div style="margin-top:10px; margin-botom:10px">
                       <input type="text" name="email" value="" class="form-control input-lg" placeholder="Your Email"  />
-                      <div class="input-group-append">
-                        <span class="input-group-text">@siemens.com</span>
-                      </div>
                     </div>
                     <div style="margin-top:10px; margin-botom:10px">
                       <input type="text" name="division" value="" class="form-control input-lg" placeholder="Business Division"  />
