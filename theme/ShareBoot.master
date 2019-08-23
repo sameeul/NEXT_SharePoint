@@ -130,6 +130,8 @@ window.addEventListener("resize", resizeDivs);
                          <a class="dropdown-item" href="/coi/DiversityERG/NEXT/Pages/NEXT-Template.aspx">About NEXT</a>
                          <a class="dropdown-item" href="/coi/DiversityERG/NEXT/Pages/NEXT-Leadership.aspx">Leadership Team</a>
                          <a class="dropdown-item" href="/coi/DiversityERG/NEXT/Pages/Impact.aspx">Our Impact</a>
+                         <a class="dropdown-item" href="/coi/DiversityERG/NEXT/Pages/NEXT-Template.aspx">Executive Sponsors</a>
+                         <a class="dropdown-item" href="/coi/DiversityERG/NEXT/Pages/NEXT-Template.aspx">Chapter Leads</a>
                        </div>
                     </li>
 <!-- Link to Diversity -->
