@@ -23,14 +23,11 @@
 	 <WebPartPages:WebPartZone runat="server" FrameType="None" ID="Main" Title="loc:Main"><ZoneTemplate>
 		<WebPartPages:DataFormWebPart runat="server" EnableOriginalValue="False" DisplayName="New Member List" ViewFlag="8" ViewContentTypeId="" Default="FALSE" ListUrl="" ListDisplayName="" ListName="{B65BE0D7-272C-4175-908C-E3AC23074032}" ListId="b65be0d7-272c-4175-908c-e3ac23074032" PageType="PAGE_NEWFORM" PageSize="-1" UseSQLDataSourcePaging="True" DataSourceID="" ShowWithSampleData="False" AsyncRefresh="False" ManualRefresh="False" AutoRefresh="False" AutoRefreshInterval="60" NoDefaultStyle="TRUE" InitialAsyncDataFetch="False" Title="New Member List" FrameType="None" SuppressWebPartChrome="False" Description="" IsIncluded="True" PartOrder="2" FrameState="Normal" AllowRemove="True" AllowZoneChange="True" AllowMinimize="True" AllowConnect="True" AllowEdit="True" AllowHide="True" IsVisible="True" DetailLink="" HelpLink="" HelpMode="Modeless" Dir="Default" PartImageSmall="" MissingAssembly="Cannot import this Web Part." PartImageLarge="" IsIncludedFilter="" ExportControlledProperties="True" ConnectionID="00000000-0000-0000-0000-000000000000" ID="g_bb75116a_3fde_4497_bc11_69358aa3d2c9" ChromeType="None" ExportMode="All" __MarkupType="vsattributemarkup" __WebPartId="{BB75116A-3FDE-4497-BC11-69358AA3D2C9}" __AllowXSLTEditing="true" WebPart="true" Height="" Width=""><DataSources>
 <SharePoint:SPDataSource runat="server" DataSourceMode="ListItem" SelectCommand="&lt;View&gt;&lt;Query&gt;&lt;Where&gt;&lt;Eq&gt;&lt;FieldRef Name=&quot;ContentType&quot;/&gt;&lt;Value Type=&quot;Text&quot;&gt;Item&lt;/Value&gt;&lt;/Eq&gt;&lt;/Where&gt;&lt;/Query&gt;&lt;/View&gt;" UseInternalName="True" UseServerDataFormat="True"><SelectParameters><WebPartPages:DataFormParameter ParameterKey="ListItemId" PropertyName="ParameterValues" DefaultValue="0" Name="ListItemId"></WebPartPages:DataFormParameter><WebPartPages:DataFormParameter ParameterKey="weburl" PropertyName="ParameterValues" DefaultValue="https://plconnect.industrysoftware.automation.siemens.com/coi/DiversityERG/NEXT" Name="weburl"></WebPartPages:DataFormParameter><WebPartPages:DataFormParameter ParameterKey="ListID" PropertyName="ParameterValues" DefaultValue="{B65BE0D7-272C-4175-908C-E3AC23074032}" Name="ListID"></WebPartPages:DataFormParameter>
-	
 			</SelectParameters><UpdateParameters><WebPartPages:DataFormParameter ParameterKey="ListItemId" PropertyName="ParameterValues" DefaultValue="0" Name="ListItemId"></WebPartPages:DataFormParameter><WebPartPages:DataFormParameter ParameterKey="weburl" PropertyName="ParameterValues" DefaultValue="https://plconnect.industrysoftware.automation.siemens.com/coi/DiversityERG/NEXT" Name="weburl"></WebPartPages:DataFormParameter><WebPartPages:DataFormParameter ParameterKey="ListID" PropertyName="ParameterValues" DefaultValue="{B65BE0D7-272C-4175-908C-E3AC23074032}" Name="ListID"></WebPartPages:DataFormParameter>
-	
 			</UpdateParameters><InsertParameters><WebPartPages:DataFormParameter ParameterKey="ListItemId" PropertyName="ParameterValues" DefaultValue="0" Name="ListItemId"></WebPartPages:DataFormParameter><WebPartPages:DataFormParameter ParameterKey="weburl" PropertyName="ParameterValues" DefaultValue="https://plconnect.industrysoftware.automation.siemens.com/coi/DiversityERG/NEXT" Name="weburl"></WebPartPages:DataFormParameter><WebPartPages:DataFormParameter ParameterKey="ListID" PropertyName="ParameterValues" DefaultValue="{B65BE0D7-272C-4175-908C-E3AC23074032}" Name="ListID"></WebPartPages:DataFormParameter>
-	
 			</InsertParameters><DeleteParameters><WebPartPages:DataFormParameter ParameterKey="ListItemId" PropertyName="ParameterValues" DefaultValue="0" Name="ListItemId"></WebPartPages:DataFormParameter><WebPartPages:DataFormParameter ParameterKey="weburl" PropertyName="ParameterValues" DefaultValue="https://plconnect.industrysoftware.automation.siemens.com/coi/DiversityERG/NEXT" Name="weburl"></WebPartPages:DataFormParameter><WebPartPages:DataFormParameter ParameterKey="ListID" PropertyName="ParameterValues" DefaultValue="{B65BE0D7-272C-4175-908C-E3AC23074032}" Name="ListID"></WebPartPages:DataFormParameter>
-	
-			</DeleteParameters></SharePoint:SPDataSource>
+			</DeleteParameters>
+</SharePoint:SPDataSource>
 </DataSources>
 <Xsl>
 
@@ -258,10 +255,12 @@
 </script>
 </asp:Content>
 <asp:Content ContentPlaceHolderId="PlaceHolderBodyAreaClass" runat="server">
-<SharePoint:StyleBlock runat="server">.ms-bodyareaframe {
+<SharePoint:StyleBlock runat="server">
+.ms-bodyareaframe {
 	padding: 8px;
 	border: none;
-} </SharePoint:StyleBlock>
+}
+</SharePoint:StyleBlock>
 </asp:Content>
 <asp:Content ContentPlaceHolderId="PlaceHolderBodyLeftBorder" runat="server">
 <div class='ms-areaseparatorleft'><img src="/_layouts/15/images/blank.gif?rev=23" width='8' height='100%' alt="" /></div>
