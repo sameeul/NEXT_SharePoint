@@ -55,31 +55,4 @@
     <button type="button" class="btn btn-info"> OUR EVENTS</button>
 
 </footer>
-
-
-
-  
-<script type="text/javascript">
-document.getElementById("link").addEventListener("click", function(event)
-{
-    event.preventDefault();
-    refreshElement('https://plconnect.industrysoftware.automation.siemens.com/coi/DiversityERG/NEXT/SiteAssets/Content_pages/Chapter/chapter_con_1.html');
-});
-
-function refreshElement(url)
-{
-  var xhttp = new XMLHttpRequest();
-  xhttp.onreadystatechange = function()
-  {
-    if (this.readyState == 4 && this.status == 200)
-	{
-		var htmlToAppend = this.responseURL;
-		var webpartdiv = document.getElementById("MSOZoneCell_WebPartWPQ1");
-		webpartdiv.innerHTML = this.response;
-    }
-  };
-  xhttp.open("GET", url, true);
-  xhttp.send();
-}
-</script>
 </asp:Content>
