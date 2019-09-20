@@ -83,8 +83,9 @@ window.addEventListener("resize", resizeDivs);
                          Chapters
                        </a>
                        <div class="dropdown-menu">
-                         <a class="dropdown-item" href="/coi/DiversityERG/NEXT/Pages/NEXT-Template.aspx">Starting a Chapter</a>
+                         <a class="dropdown-item" href="/coi/DiversityERG/NEXT/Pages/NEXT-StartChapter.aspx">Starting a Chapter</a>
                          <a class="dropdown-item" href="/coi/DiversityERG/NEXT/Pages/NEXT-Template.aspx">Current Chapters</a>
+                         <a class="dropdown-item" href="/coi/DiversityERG/NEXT/Pages/NEXT-EventChecklist.aspx">Hosting an Event</a>
                          <a class="dropdown-item" href="/coi/DiversityERG/NEXT/Pages/NEXT-Template.aspx">Getting Funding for Events</a>
                        </div>
                     </li>
