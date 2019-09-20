@@ -20,21 +20,69 @@
 <asp:Content ContentPlaceHolderId="PlaceHolderMain" runat="server">
 
    <script src="https://plconnect.industrysoftware.automation.siemens.com/_layouts/jquery/jquery-1.10.2.min.js"></script>
+<script language=Javascript>
+function AddListItem() 
+{ 
+    var fullName = $("#fullname").val(); 
+    var email = $("#email").val(); 
+    var division = $("#division").val();
+    var location = $("#location").val();
+    var re = document.getElementById("remoteemployee");
+    var remoteEmployee = re.options[re.selectedIndex].value;
+    var ma = document.getElementById("memberalready");
+    var memberAlready = ma.options[ma.selectedIndex].value;
+
+
+    $.ajax 
+        ({ 
+        url: _spPageContextInfo.webAbsoluteUrl + "/_api/web/lists/GetByTitle('New Member List')/items", 
+        type: "POST", 
+        data: JSON.stringify 
+        ({ 
+            __metadata: 
+            { 
+                type: "SP.Data.New_x0020_Member_x0020_ListListItem" 
+            }, 
+            Title: fullName, 
+            Email_x0020_Address: email,
+            Division: division,
+            Location_x0020__x0028_City_x002c: location, 
+            field1: remoteEmployee,
+            field20: memberAlready
+        }), 
+        headers: 
+        { 
+            "Accept": "application/json;odata=verbose", 
+            "Content-Type": "application/json;odata=verbose", 
+            "X-RequestDigest": $("#__REQUESTDIGEST").val(), 
+            "X-HTTP-Method": "POST" 
+        }, 
+        success: function(data, status, xhr) 
+        { 
+            console.log("Success"); 
+        }, 
+        error: function(xhr, status, error) 
+        { 
+            console.log(data.responseJSON.error); 
+        } 
+    }); 
+}
+</script>
 <div class="container" style="min-height:500px; margin-top:5%">
 	<div class="row" style="justify-content:center" >
         <div class="col-md-6 col-md-offset-3">
             <form action="r" method="post" accept-charset="utf-8" class="form" role="form">   <legend style="padding-bottom:10px;text-align:center">New Member Sign Up</legend>
                     <div style="margin-top:10px; margin-botom:10px">
-                      <input type="text" name="fullname" value="" class="form-control input-lg" placeholder="Your Name"  />
+                      <input type="text" id="fullname" value="" class="form-control input-lg" placeholder="Your Name"  />
                     </div>
                     <div style="margin-top:10px; margin-botom:10px">
-                      <input type="text" name="email" value="" class="form-control input-lg" placeholder="Your Email"  />
+                      <input type="text" id="email" value="" class="form-control input-lg" placeholder="Your Email"  />
                     </div>
                     <div style="margin-top:10px; margin-botom:10px">
-                      <input type="text" name="division" value="" class="form-control input-lg" placeholder="Business Division"  />
+                      <input type="text" id="division" value="" class="form-control input-lg" placeholder="Business Division"  />
                     </div>
                     <div style="margin-top:10px; margin-botom:10px">
-                      <input type="text" name="location" value="" class="form-control input-lg" placeholder="Office Location (City, State)"  />
+                      <input type="text" id="location" value="" class="form-control input-lg" placeholder="Office Location (City, State)"  />
                     </div>
 
                     <div class="input-group" style="margin-top:10px; margin-botom:10px">
@@ -53,7 +101,7 @@
                       </select>
                     </div>
                    
-                    <button class="btn btn-lg btn-primary btn-block signup-btn" type="submit" style="margin-top:10px; margin-botom:10px">
+                    <button onCLick ="AddListItem()" class="btn btn-lg btn-primary btn-block signup-btn" type="submit" style="margin-top:10px; margin-botom:10px">
                         Join NEXT</button>
             </form>          
           </div>
