@@ -6,11 +6,15 @@
 <asp:Content ContentPlaceholderID="PlaceHolderAdditionalPageHead" runat="server">
 	<SharePointWebControls:CssRegistration name="<% $SPUrl:~sitecollection/Style Library/~language/Themable/Core Styles/pagelayouts15.css %>" runat="server"/>
 		<PublishingWebControls:EditModePanel runat="server">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
 		<!-- Styles for edit mode only-->
 		<SharePointWebControls:CssRegistration name="<% $SPUrl:~sitecollection/Style Library/~language/Themable/Core Styles/editmode15.css %>" After="<% $SPUrl:~sitecollection/Style Library/~language/Themable/Core Styles/pagelayouts15.css %>" runat="server"/>
 	</PublishingWebControls:EditModePanel>
 	<SharePointWebControls:FieldValue id="PageStylesField" FieldName="HeaderStyleDefinitions" runat="server"/>
-    <style>.pageTitle{display:none;}</style>
+    <style src="ShareBoot.css" tpye="text/css">.pageTitle{display:none;}
+
+  </style>
 </asp:Content>
 
 <asp:Content ContentPlaceHolderId="PlaceHolderPageTitle" runat="server">
@@ -18,6 +22,35 @@
 <asp:Content ContentPlaceholderID="PlaceHolderTopNavBar" runat="server">
 </asp:Content>
 <asp:Content ContentPlaceholderID="PlaceHolderMain" runat="server">
+
+  <style type="text/css">
+    
+    .bodyText{
+      font-family: sans-serif !important;
+      color: grey !important;
+      margin-top:-10% !important;
+    }
+
+
+    .listI{
+      margin-top:5% !important;
+    }
+
+    .button{
+      margin-top:-4% !important;
+    }
+
+    .button:hover{
+      background-color:rgb(0,100,110) !important;
+    }
+
+
+    strong{
+      color:rgb(50,160,160) !important;
+    } 
+
+
+  </style>
 <!-- Start Slides -->
 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
   <ol class="carousel-indicators">
@@ -51,16 +84,18 @@
 </div>
 <!-- End Slides -->
 <div class="jumbotron" style="width:70%;margin:50px auto;max-width:1000px;background-color:white">
-  <div class="container text-center">
-    <h1>Message from the Leadership</h1>      
-    <p>Aliquam hac dictumst tincidunt torquent in aliquam ullamcorper faucibus, </p>
-      <p> habitant amet convallis massa ultrices est eros adipiscing pretium, tempor aptent est fames potenti volutpat lacinia.</p>
+  <div class="container text-center bodyText"> 
+    <ul style="list-style-type:none;">    
+      <li class="listI" style="margin-left:2%; width: 41rem"><strong>NEXT</strong> seeks to make an <strong>IMPACT</strong> on our company by providing real value to our business and to our members through initiatives, education, and leadership.</li>
+      <li class="listI" style="margin-left: 14%; width:42rem"><strong>NEXT</strong> works for and with early and mid-career professionals to <strong>DEVELOP</strong> talent, engage people with our company and their careers here and provide opportunities to grow.</li>
+      <li class="listI" style="margin-left: 25%; width:42rem"><strong>NEXT</strong> wants to help <strong>CREATE</strong> sustainable change on our culture internally and in our communities to help retain our talent and make Siemens an aspirational workplace.</li>
+    </ul>
   </div>
 </div>
 
 <footer class="container-fluid text-center">
     <form>
-    <button type="submit" class="btn btn-secondary" formaction="https://plconnect.industrysoftware.automation.siemens.com/coi/DiversityERG/NEXT/Pages/signup.aspx" >JOIN NEXT</button>
+    <button type="submit" class="btn btn-secondary button" formaction="https://plconnect.industrysoftware.automation.siemens.com/coi/DiversityERG/NEXT/Pages/signup.aspx" >JOIN NEXT</button>
     </form>
 </footer>
 </asp:Content>

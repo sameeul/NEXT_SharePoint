@@ -21,310 +21,197 @@
 
    <script src="https://plconnect.industrysoftware.automation.siemens.com/_layouts/jquery/jquery-1.10.2.min.js"></script>
 <div class ="container">
-
   <div class="row" >
-    <h2 style="color:rgb(0, 100, 110); font-size:30px; padding:15px"> National Leadership Team </h2> 
+    <h2 style="color:rgb(0, 100, 110); padding:20px" >NEXT Chapter Leads</h2>
   </div>
+  <!-- <div class="row" >
+    <h2 style="color:rgb(0, 100, 110); font-size:30px; padding:15px"> Co-Lead </h2> 
+  </div> -->
+
+ <!-- <div class="row">
+
+    <div class="col-sm-3">
+      <div class="card border-white mb-3" style="max-width: 18rem">
+        <img src="http://www.cams-it.com/wp-content/uploads/2015/05/default-placeholder-200x200.png" style="width:200px; height:200px; margin-bottom:20px">
+        <div class="container-fluid">
+          <h3 style="height:15px"> Jane Doe </h3>
+          <p> Position <br> Organization </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-sm-3">
+      <div class="card border-white mb-3" style="max-width: 18rem">
+        <img src="http://www.cams-it.com/wp-content/uploads/2015/05/default-placeholder-200x200.png" style="width:200px; height:200px; margin-bottom:20px">
+        <div class="container-fluid">
+          <h3 style="height:15px"> Jane Doe </h3>
+          <p> Position <br> Organization </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-sm-3">
+      <div class="card border-white mb-3" style="max-width: 18rem">
+        <img src="http://www.cams-it.com/wp-content/uploads/2015/05/default-placeholder-200x200.png" style="width:200px; height:200px; margin-bottom:20px">
+        <div class="container-fluid">
+          <h3 style="height:15px"> Jane Doe </h3>
+          <p> Position <br> Organization </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-sm-3">
+      <div class="card border-white mb-3" style="max-width: 18rem">
+        <img src="http://www.cams-it.com/wp-content/uploads/2015/05/default-placeholder-200x200.png" style="width:200px; height:200px; margin-bottom:20px">
+        <div class="container-fluid">
+          <h3 style="height:15px"> Jane Doe </h3>
+          <p> Position <br> Organization </p>
+        </div>
+      </div>
+    </div>
+
+  </div> -->
+
+  <!-- <div class="row" >
+    <h2 style="color:rgb(0, 100, 110); padding:15px"> Development Team </h2> 
+  </div> -->
 
   <div class="row">
+
     <div class="col-sm-3">
       <div class="card border-white mb-3" style="max-width: 18rem">
-        <img src="http://www.cams-it.com/wp-content/uploads/2015/05/default-placeholder-200x200.png" style="width:200px; height:200px; margin-bottom:20px">
+        <img src="https://plconnect.industrysoftware.automation.siemens.com/coi/DiversityERG/NEXT/SiteAssets/images/chapter%20lead%20headshots/Arango_Carlos.PNG" style="width:200px; height:200px; margin-bottom:20px">
         <div class="container-fluid">
-          <h3 style="height:15px"> Emma Guerra </h3>
-          <p> US Lead <br> Siemens Government Technologies </p>
+          <h3 style="height:15px"> Carlos Arango </h3>
+          <p> Lead <br> Atlanta, GA </p>
         </div>
       </div>
     </div>
 
     <div class="col-sm-3">
       <div class="card border-white mb-3" style="max-width: 18rem">
-        <img src="http://www.cams-it.com/wp-content/uploads/2015/05/default-placeholder-200x200.png" style="width:200px; height:200px; margin-bottom:20px">
+        <img src="https://plconnect.industrysoftware.automation.siemens.com/coi/DiversityERG/NEXT/SiteAssets/images/chapter%20lead%20headshots/Peterson_Michael.PNG" style="width:200px; height:200px; margin-bottom:20px">
         <div class="container-fluid">
-          <h3 style="height:15px"> Brian Basila </h3>
-          <p> Finance Lead <br> Financial LDP </p>
+          <h3 style="height:15px"> Michael Peterson </h3>
+          <p> Lead <br> Beaverton, OR </p>
         </div>
       </div>
     </div>
 
     <div class="col-sm-3">
       <div class="card border-white mb-3" style="max-width: 18rem">
-        <img src="http://www.cams-it.com/wp-content/uploads/2015/05/default-placeholder-200x200.png" style="width:200px; height:200px; margin-bottom:20px">
+        <img src="https://plconnect.industrysoftware.automation.siemens.com/coi/DiversityERG/NEXT/SiteAssets/images/chapter%20lead%20headshots/Prasad_Devi.png" style="width:200px; height:200px; margin-bottom:20px">
         <div class="container-fluid">
-          <h3 style="height:15px"> Prabu Ravindren </h3>
-          <p> DI SW Liaison <br> NXN Structures </p>
-        </div>
-      </div>
-    </div>
-
-  </div>
-
-  <div class="row" >
-    <h2 style="color:rgb(0, 100, 110); padding:15px"> Communications Team </h2> 
-  </div>
-
-  <div class="row">
-    <div class="col-sm-3">
-      <div class="card border-white mb-3" style="max-width: 18rem">
-        <img src="http://www.cams-it.com/wp-content/uploads/2015/05/default-placeholder-200x200.png" style="width:200px; height:200px; margin-bottom:20px">
-        <div class="container-fluid">
-          <h3 style="height:15px"> Maria Baker </h3>
-          <p> Team Member <br> Finance </p>
+          <h3 style="height:15px"> Devi Prasad Gorrepati </h3>
+          <p> Co-Lead <br> Fremont, CA </p>
         </div>
       </div>
     </div>
 
     <div class="col-sm-3">
       <div class="card border-white mb-3" style="max-width: 18rem">
-        <img src="http://www.cams-it.com/wp-content/uploads/2015/05/default-placeholder-200x200.png" style="width:200px; height:200px; margin-bottom:20px">
-        <div class="container-fluid">
-          <h3 style="height:15px"> Jessica Buchberger </h3>
-          <p> Team Member <br> University Relations </p>
-        </div>
-      </div>
-    </div>
-
-    <div class="col-sm-3">
-      <div class="card border-white mb-3" style="max-width: 18rem">
-        <img src="http://www.cams-it.com/wp-content/uploads/2015/05/default-placeholder-200x200.png" style="width:200px; height:200px; margin-bottom:20px">
-        <div class="container-fluid">
-          <h3 style="height:15px"> Richard Wachtel </h3>
-          <p> Team Member <br> Corporate Messaging </p>
-        </div>
-      </div>
-    </div>
-
-  </div>
-
-
-  <div class="row" >
-    <h2 style="color:rgb(0, 100, 110); padding:15px"> Special Projects Team </h2> 
-  </div>
-
-  <div class="row">
-    <div class="col-sm-3">
-      <div class="card border-white mb-3" style="max-width: 18rem">
-        <img src="http://www.cams-it.com/wp-content/uploads/2015/05/default-placeholder-200x200.png" style="width:200px; height:200px; margin-bottom:20px">
-        <div class="container-fluid">
-          <h3 style="height:15px"> Mike Esterle </h3>
-          <p> Lead <br> PO & MD </p>
-        </div>
-      </div>
-    </div>
-
-    <div class="col-sm-3">
-      <div class="card border-white mb-3" style="max-width: 18rem">
-        <img src="http://www.cams-it.com/wp-content/uploads/2015/05/default-placeholder-200x200.png" style="width:200px; height:200px; margin-bottom:20px">
-        <div class="container-fluid">
-          <h3 style="height:15px"> Scott Hennelly </h3>
-          <p> Team Member <br> Laboratory Diagnostics </p>
-        </div>
-      </div>
-    </div>
-
-    <div class="col-sm-3">
-      <div class="card border-white mb-3" style="max-width: 18rem">
-        <img src="http://www.cams-it.com/wp-content/uploads/2015/05/default-placeholder-200x200.png" style="width:200px; height:200px; margin-bottom:20px">
-        <div class="container-fluid">
-          <h3 style="height:15px"> Adam Hiller </h3>
-          <p> Team Member <br> Presales-Tech Consulting Americas </p>
-        </div>
-      </div>
-    </div>
-
-    <div class="col-sm-3">
-      <div class="card border-white mb-3" style="max-width: 18rem">
-        <img src="http://www.cams-it.com/wp-content/uploads/2015/05/default-placeholder-200x200.png" style="width:200px; height:200px; margin-bottom:20px">
-        <div class="container-fluid">
-          <h3 style="height:15px"> Kavita Murthy </h3>
-          <p> Team Member <br> Mods & Ups Application Engineering </p>
-        </div>
-      </div>
-    </div>
-  </div>
-
-
-  <div class="row">
-    <div class="col-sm-3">
-      <div class="card border-white mb-3" style="max-width: 18rem">
-        <img src="http://www.cams-it.com/wp-content/uploads/2015/05/default-placeholder-200x200.png" style="width:200px; height:200px; margin-bottom:20px">
+        <img src="https://plconnect.industrysoftware.automation.siemens.com/coi/DiversityERG/NEXT/SiteAssets/images/chapter%20lead%20headshots/Najibi_Tina.PNG" style="width:200px; height:200px; margin-bottom:20px">
         <div class="container-fluid">
           <h3 style="height:15px"> Tina Najibi </h3>
-          <p> Team Member <br> DI SW </p>
+          <p> Co-Lead <br> Fremont, CA </p>
         </div>
       </div>
     </div>
 
-    <div class="col-sm-3">
-      <div class="card border-white mb-3" style="max-width: 18rem">
-        <img src="http://www.cams-it.com/wp-content/uploads/2015/05/default-placeholder-200x200.png" style="width:200px; height:200px; margin-bottom:20px">
-        <div class="container-fluid">
-          <h3 style="height:15px"> Michael Pearl </h3>
-          <p> Team Member <br> Customer Service Support </p>
-        </div>
-      </div>
-    </div>
-
-    <div class="col-sm-3">
-      <div class="card border-white mb-3" style="max-width: 18rem">
-        <img src="http://www.cams-it.com/wp-content/uploads/2015/05/default-placeholder-200x200.png" style="width:200px; height:200px; margin-bottom:20px">
-        <div class="container-fluid">
-          <h3 style="height:15px"> Nivedita Raparthi </h3>
-          <p> Team Member <br> DI SW </p>
-        </div>
-      </div>
-    </div>
-
-    <div class="col-sm-3">
-      <div class="card border-white mb-3" style="max-width: 18rem">
-        <img src="http://www.cams-it.com/wp-content/uploads/2015/05/default-placeholder-200x200.png" style="width:200px; height:200px; margin-bottom:20px">
-        <div class="container-fluid">
-          <h3 style="height:15px"> Tyler Shott </h3>
-          <p> Team Member <br> LDA CRM SYS NKN TS </p>
-        </div>
-      </div>
-    </div>
   </div>
 
-  <div class="row">
-    <div class="col-sm-3">
-      <div class="card border-white mb-3" style="max-width: 18rem">
-        <img src="http://www.cams-it.com/wp-content/uploads/2015/05/default-placeholder-200x200.png" style="width:200px; height:200px; margin-bottom:20px">
-        <div class="container-fluid">
-          <h3 style="height:15px"> Susana Tamayo </h3>
-          <p> Team Member <br> HR OT GMM BTC 9 </p>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="row" >
-    <h2 style="color:rgb(0, 100, 110); padding:15px"> International Team </h2> 
-  </div>
-
-  <div class="row">
-    <div class="col-sm-3">
-      <div class="card border-white mb-3" style="max-width: 18rem">
-        <img src="http://www.cams-it.com/wp-content/uploads/2015/05/default-placeholder-200x200.png" style="width:200px; height:200px; margin-bottom:20px">
-        <div class="container-fluid">
-          <h3 style="height:15px"> Alice Walker </h3>
-          <p> Lead <br> Organization </p>
-        </div>
-      </div>
-    </div>
-
-    <div class="col-sm-3">
-      <div class="card border-white mb-3" style="max-width: 18rem">
-        <img src="http://www.cams-it.com/wp-content/uploads/2015/05/default-placeholder-200x200.png" style="width:200px; height:200px; margin-bottom:20px">
-        <div class="container-fluid">
-          <h3 style="height:15px"> Mohamed Benzit </h3>
-          <p> Team Member <br> KSA Service Operations </p>
-        </div>
-      </div>
-    </div>
-
-    <div class="col-sm-3">
-      <div class="card border-white mb-3" style="max-width: 18rem">
-        <img src="http://www.cams-it.com/wp-content/uploads/2015/05/default-placeholder-200x200.png" style="width:200px; height:200px; margin-bottom:20px">
-        <div class="container-fluid">
-          <h3 style="height:15px"> Cassie Bradley </h3>
-          <p> Team Member <br> Engineering </p>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="row" >
-    <h2 style="color:rgb(0, 100, 110); padding:15px"> Events and Development Team </h2> 
-  </div>
-
-  <div class="row">
-    <div class="col-sm-3">
-      <div class="card border-white mb-3" style="max-width: 18rem">
-        <img src="http://www.cams-it.com/wp-content/uploads/2015/05/default-placeholder-200x200.png" style="width:200px; height:200px; margin-bottom:20px">
-        <div class="container-fluid">
-          <h3 style="height:15px"> Caroline Nielsen</h3>
-          <h3 style="height:15px"> Pantaleoni </h3>
-          <p> Co-Lead <br> Organization </p>
-        </div>
-      </div>
-    </div>
-
-    <div class="col-sm-3">
-      <div class="card border-white mb-3" style="max-width: 18rem">
-        <img src="http://www.cams-it.com/wp-content/uploads/2015/05/default-placeholder-200x200.png" style="width:200px; height:200px; margin-bottom:20px">
-        <div class="container-fluid">
-          <h3 style="height:15px"> Jonathan Hui </h3>
-          <p> Co-Lead <br> IT Partner Americas </p>
-        </div>
-      </div>
-    </div>
-
-    <div class="col-sm-3">
-      <div class="card border-white mb-3" style="max-width: 18rem">
-        <img src="http://www.cams-it.com/wp-content/uploads/2015/05/default-placeholder-200x200.png" style="width:200px; height:200px; margin-bottom:20px">
-        <div class="container-fluid">
-          <h3 style="height:15px"> Travis Bertram </h3>
-          <p> Team Member <br> DI SW </p>
-        </div>
-      </div>
-    </div>
-
-    <div class="col-sm-3">
-      <div class="card border-white mb-3" style="max-width: 18rem">
-        <img src="http://www.cams-it.com/wp-content/uploads/2015/05/default-placeholder-200x200.png" style="width:200px; height:200px; margin-bottom:20px">
-        <div class="container-fluid">
-          <h3 style="height:15px"> Michelle Kim </h3>
-          <p> Team Member <br> DI SW </p>
-        </div>
-      </div>
-    </div>
-  </div>
-
-    <div class="row">
-    <div class="col-sm-3">
-      <div class="card border-white mb-3" style="max-width: 18rem">
-        <img src="http://www.cams-it.com/wp-content/uploads/2015/05/default-placeholder-200x200.png" style="width:200px; height:200px; margin-bottom:20px">
-        <div class="container-fluid">
-          <h3 style="height:15px"> Daniel Martin </h3>
-          <p> Team Member <br> Organization </p>
-        </div>
-      </div>
-    </div>
-
-    <div class="col-sm-3">
-      <div class="card border-white mb-3" style="max-width: 18rem">
-        <img src="http://www.cams-it.com/wp-content/uploads/2015/05/default-placeholder-200x200.png" style="width:200px; height:200px; margin-bottom:20px">
-        <div class="container-fluid">
-          <h3 style="height:15px"> Maria Matthews </h3>
-          <p> Team Member <br> Financial LDP </p>
-        </div>
-      </div>
-    </div>
-
-    <div class="col-sm-3">
-      <div class="card border-white mb-3" style="max-width: 18rem">
-        <img src="http://www.cams-it.com/wp-content/uploads/2015/05/default-placeholder-200x200.png" style="width:200px; height:200px; margin-bottom:20px">
-        <div class="container-fluid">
-          <h3 style="height:15px"> Elsie Odhiambo </h3>
-          <p> Team Member <br> Package Engineering </p>
-        </div>
-      </div>
-    </div>
-
-    <div class="col-sm-3">
-      <div class="card border-white mb-3" style="max-width: 18rem">
-        <img src="http://www.cams-it.com/wp-content/uploads/2015/05/default-placeholder-200x200.png" style="width:200px; height:200px; margin-bottom:20px">
-        <div class="container-fluid">
-          <h3 style="height:15px"> Dan Yu </h3>
-          <p> Team Member <br> Organization </p>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="row" >
+  <!-- <div class="row" >
     <h2 style="color:rgb(0, 100, 110); padding:15px"> Engagement Team </h2> 
+  </div> -->
+
+  <div class="row">
+    <div class="col-sm-3">
+      <div class="card border-white mb-3" style="max-width: 18rem">
+        <img src="https://plconnect.industrysoftware.automation.siemens.com/coi/DiversityERG/NEXT/SiteAssets/images/chapter%20lead%20headshots/Rojas_Emile.jpg" style="width:200px; height:200px; margin-bottom:20px">
+        <div class="container-fluid">
+          <h3 style="height:15px"> Emile Rojas </h3>
+          <p> Co-Lead <br> Houston, TX </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-sm-3">
+      <div class="card border-white mb-3" style="max-width: 18rem">
+        <img src="https://plconnect.industrysoftware.automation.siemens.com/coi/DiversityERG/NEXT/SiteAssets/images/chapter%20lead%20headshots/Clark_Ben.jpg" style="width:200px; height:200px; margin-bottom:20px">
+        <div class="container-fluid">
+          <h3 style="height:15px"> Ben Clark </h3>
+          <p> Co-Lead <br> Houston, TX </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-sm-3">
+      <div class="card border-white mb-3" style="max-width: 18rem">
+        <img src="https://plconnect.industrysoftware.automation.siemens.com/coi/DiversityERG/NEXT/SiteAssets/images/chapter%20lead%20headshots/Castro_Eric.jpg" style="width:200px; height:200px; margin-bottom:20px">
+        <div class="container-fluid">
+          <h3 style="height:15px"> Eric Castro </h3>
+          <p> Co-Lead <br> Houston, TX </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-sm-3">
+      <div class="card border-white mb-3" style="max-width: 18rem">
+        <img src="http://www.cams-it.com/wp-content/uploads/2015/05/default-placeholder-200x200.png" style="width:200px; height:200px; margin-bottom:20px">
+        <div class="container-fluid">
+          <h3 style="height:15px"> Dinal Perera </h3>
+          <p> Lead <br> Northville, MI </p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!--<div class="row" >
+    <h2 style="color:rgb(0, 100, 110);padding:15px"> Events Team </h2> 
+  </div>-->
+
+  <div class="row">
+    <div class="col-sm-3">
+      <div class="card border-white mb-3" style="max-width: 18rem">
+        <img src="http://www.cams-it.com/wp-content/uploads/2015/05/default-placeholder-200x200.png" style="width:200px; height:200px; margin-bottom:20px">
+        <div class="container-fluid">
+          <h3 style="height:15px"> Swathi Motukupalli Ravindranath </h3> <br />
+          <p> Co-Lead <br> Detroit, MI </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-sm-3">
+      <div class="card border-white mb-3" style="max-width: 18rem">
+        <img src="https://plconnect.industrysoftware.automation.siemens.com/coi/DiversityERG/NEXT/SiteAssets/images/chapter%20lead%20headshots/Morales-Veloz_Andres.jpg" style="width:200px; height:200px; margin-bottom:20px">
+        <div class="container-fluid">
+          <h3 style="height:15px"> Andres Morales-Veloz </h3>
+          <p> Co-Lead <br> Detroit, MI </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-sm-3">
+      <div class="card border-white mb-3" style="max-width: 18rem">
+        <img src="http://www.cams-it.com/wp-content/uploads/2015/05/default-placeholder-200x200.png" style="width:200px; height:200px; margin-bottom:20px">
+        <div class="container-fluid">
+          <h3 style="height:15px"> Alice Wallace </h3>
+          <p> Co-Lead <br> Wilsonville, OR </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-sm-3">
+      <div class="card border-white mb-3" style="max-width: 18rem">
+        <img src="https://plconnect.industrysoftware.automation.siemens.com/coi/DiversityERG/NEXT/SiteAssets/images/chapter%20lead%20headshots/Bridgewater_Drake.jpg" style="width:200px; height:200px; margin-bottom:20px">
+        <div class="container-fluid">
+          <h3 style="height:15px"> Drake Bridgewater </h3>
+          <p> Co-Lead <br> Wilsonville, OR </p>
+        </div>
+      </div>
+    </div>
+
   </div>
 
   <div class="row">
@@ -332,8 +219,8 @@
       <div class="card border-white mb-3" style="max-width: 18rem">
         <img src="http://www.cams-it.com/wp-content/uploads/2015/05/default-placeholder-200x200.png" style="width:200px; height:200px; margin-bottom:20px">
         <div class="container-fluid">
-          <h3 style="height:15px"> Sameeul Samee </h3>
-          <p> Lead <br> Organization </p>
+          <h3 style="height:15px"> Nikhil Cherukuri </h3>
+          <p> Co-Lead <br> Cypress, CA </p>
         </div>
       </div>
     </div>
@@ -342,8 +229,18 @@
       <div class="card border-white mb-3" style="max-width: 18rem">
         <img src="http://www.cams-it.com/wp-content/uploads/2015/05/default-placeholder-200x200.png" style="width:200px; height:200px; margin-bottom:20px">
         <div class="container-fluid">
-          <h3 style="height:15px"> Rilesh Bafna </h3>
-          <p> Team Member <br> Organization </p>
+          <h3 style="height:15px"> Mena Soliman </h3>
+          <p> Co-Lead <br> Cypress, CA </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-sm-3">
+      <div class="card border-white mb-3" style="max-width: 18rem">
+        <img src="https://plconnect.industrysoftware.automation.siemens.com/coi/DiversityERG/NEXT/SiteAssets/images/chapter%20lead%20headshots/Burkhart_Erica.jpg" style="width:200px; height:200px; margin-bottom:20px">
+        <div class="container-fluid">
+          <h3 style="height:15px"> Erica Burkhart </h3>
+          <p> Co-Lead <br> Milford, OH </p>
         </div>
       </div>
     </div>
@@ -352,30 +249,41 @@
       <div class="card border-white mb-3" style="max-width: 18rem">
         <img src="http://www.cams-it.com/wp-content/uploads/2015/05/default-placeholder-200x200.png" style="width:200px; height:200px; margin-bottom:20px">
         <div class="container-fluid">
-          <h3 style="height:15px"> Paul Glenn </h3>
-          <p> Team Member <br> Organization </p>
+          <h3 style="height:15px"> Donovan Herbert </h3>
+          <p> Co-Lead <br> Milford, OH </p>
         </div>
       </div>
     </div>
 
-    <div class="col-sm-3">
-      <div class="card border-white mb-3" style="max-width: 18rem">
-        <img src="http://www.cams-it.com/wp-content/uploads/2015/05/default-placeholder-200x200.png" style="width:200px; height:200px; margin-bottom:20px">
-        <div class="container-fluid">
-          <h3 style="height:15px"> Yudi Ko </h3>
-          <p> Team Member <br> Organization </p>
-        </div>
-      </div>
-    </div>
   </div>
 
-    <div class="row">
+  <div class="row">
     <div class="col-sm-3">
       <div class="card border-white mb-3" style="max-width: 18rem">
         <img src="http://www.cams-it.com/wp-content/uploads/2015/05/default-placeholder-200x200.png" style="width:200px; height:200px; margin-bottom:20px">
         <div class="container-fluid">
-          <h3 style="height:15px"> Richard Liu </h3>
-          <p> Team Member <br> Organization </p>
+          <h3 style="height:15px"> Briana Raasio </h3>
+          <p> Lead <br> Buffalo Grove, IL </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-sm-3">
+      <div class="card border-white mb-3" style="max-width: 18rem">
+        <img src="https://plconnect.industrysoftware.automation.siemens.com/coi/DiversityERG/NEXT/SiteAssets/images/chapter%20lead%20headshots/Tighe_Cameron.jpg" style="width:200px; height:200px; margin-bottom:20px">
+        <div class="container-fluid">
+          <h3 style="height:15px"> Cameron Tighe </h3>
+          <p> Lead <br> NEXT GPS </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-sm-3">
+      <div class="card border-white mb-3" style="max-width: 18rem">
+        <img src="https://plconnect.industrysoftware.automation.siemens.com/coi/DiversityERG/NEXT/SiteAssets/images/chapter%20lead%20headshots/Hughes_Meagan.jpg" style="width:200px; height:200px; margin-bottom:20px">
+        <div class="container-fluid">
+          <h3 style="height:15px"> Meagan Hughes </h3>
+          <p> Lead <br> NEXT Virtual </p>
         </div>
       </div>
     </div>
@@ -384,22 +292,46 @@
       <div class="card border-white mb-3" style="max-width: 18rem">
         <img src="http://www.cams-it.com/wp-content/uploads/2015/05/default-placeholder-200x200.png" style="width:200px; height:200px; margin-bottom:20px">
         <div class="container-fluid">
-          <h3 style="height:15px"> Samira Mohammed </h3>
-          <p> Team Member <br> Organization </p>
+          <h3 style="height:15px"> Manuel Loeffler </h3>
+          <p> Lead <br> Plano, TX </p>
         </div>
       </div>
     </div>
 
-    <div class="col-sm-3">
-      <div class="card border-white mb-3" style="max-width: 18rem">
-        <img src="http://www.cams-it.com/wp-content/uploads/2015/05/default-placeholder-200x200.png" style="width:200px; height:200px; margin-bottom:20px">
-        <div class="container-fluid">
-          <h3 style="height:15px"> McKenzie Sweeney </h3>
-          <p> Team Member <br> Organization </p>
-        </div>
-      </div>
-    </div>
   </div>
+
+  <div class="row">
+    <div class="col-sm-3" style="margin-left: auto; margin-right: auto;">
+      <div class="card border-white mb-3" style="max-width: 18rem">
+        <img src="https://plconnect.industrysoftware.automation.siemens.com/coi/DiversityERG/NEXT/SiteAssets/images/chapter%20lead%20headshots/Sante_Jackob.jpg" style="width:200px; height:200px; margin-bottom:20px">
+        <div class="container-fluid">
+          <h3 style="height:15px"> Jakob Sante </h3>
+          <p> Co-Lead <br> Orlando, FL </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-sm-3" style="margin-left: auto; margin-right: auto;">
+      <div class="card border-white mb-3" style="max-width: 18rem">
+        <img src="http://www.cams-it.com/wp-content/uploads/2015/05/default-placeholder-200x200.png" style="width:200px; height:200px; margin-bottom:20px">
+        <div class="container-fluid">
+          <h3 style="height:15px"> Daniel Seoane </h3>
+          <p> Co-Lead <br> Orlando, FL </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-sm-3" style="margin-left: auto; margin-right: auto;">
+      <div class="card border-white mb-3" style="max-width: 18rem">
+        <img src="http://www.cams-it.com/wp-content/uploads/2015/05/default-placeholder-200x200.png" style="width:200px; height:200px; margin-bottom:20px">
+        <div class="container-fluid">
+          <h3 style="height:15px"> Pooja Maini </h3>
+          <p> Lead <br> Iselin, NJ </p>
+        </div>
+      </div>
+    </div>
+
+   </div>
 
 </div>
 </asp:Content>
