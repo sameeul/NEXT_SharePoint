@@ -23,55 +23,6 @@
    <script src="https://plconnect.industrysoftware.automation.siemens.com/_layouts/jquery/jquery-1.10.2.min.js"></script>
    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-	<style type="text/css">
-		.tab {
-			padding-left: 20px;
-			color: #2ac9c4;
-		}
-
-		#bgImage {
-
-		}
-
-		hr {
-			margin-top: 5%;
-			margin-bottom: 5%;
-		}
-
-		#tocTitle{
-			margin-bottom: 3%;
-		}
-
-
-		.nextColor{
-			color: rgb(0, 95, 135);
-		}
-
-
-		a {
-			color: rgb(0, 70, 105);
-		}
-
-		a:hover {
-			color: rgb(0, 100, 110);
-		}
-
-		a:visited {
-			color: rgb(175, 35, 95);
-		}
-
-		p{
-			margin-top:15px;
-			margin-bottom:20px;
-		}
-
-		ol, ul{
-			margin-top:20px;
-			margin-bottom:20px;
-		}
-
-	</style>
-
 <head>
 	<title>Start Chapter - NEXT</title>	
 </head>
@@ -196,8 +147,7 @@
 <div>
 	<div class="text-center">
 		<p class="pb-5">US NEXT National Inbox: <a href="mailto:USNEXT.GS@Siemens.com">USNEXT.GS@Siemens.com</a><br>	
-		NEXT National Co-Lead: Alexis Cherry (RC-US PD PA STMK) <a href="mailto:alexis.cherry@Siemens.com">alexis.cherry@Siemens.com</a><br>
-		NEXT National Co-Lead: Emma Guerra (SGT) <a href="mailto:emma.guerra@siemensgovt.com">emma.guerra@siemensgovt.com</a></p>
+		NEXT National Lead: Emma Guerra (SGT) <a href="mailto:emma.guerra@siemensgovt.com">emma.guerra@siemensgovt.com</a></p>
 	</div>
 </div>
   

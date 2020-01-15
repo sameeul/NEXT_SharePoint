@@ -68,6 +68,14 @@ window.addEventListener("resize", resizeDivs);
 <div id="s4-bodyContainer">
 
 <!-- Start Top Navigation -->
+<!-- CSS code for menu dropdown hovering -->
+<style type="text/css">
+  .dropdown:hover>.dropdown-menu {
+    display: block;
+  }
+</style>
+<!-- Start Top Navigation -->
+
    <nav class="navbar navbar-expand-lg navbar-light bg-light" role="navigation">
 	<div class="container">
 		<div class="navbar-header">
@@ -84,9 +92,11 @@ window.addEventListener("resize", resizeDivs);
                        </a>
                        <div class="dropdown-menu">
                          <a class="dropdown-item" href="/coi/DiversityERG/NEXT/Pages/NEXT-StartChapter.aspx">Starting a Chapter</a>
-                         <a class="dropdown-item" href="/coi/DiversityERG/NEXT/Pages/NEXT-Template.aspx">Current Chapters</a>
+                         <a class="dropdown-item" href="/coi/DiversityERG/NEXT/Pages/NEXT-ChapterList.aspx">Current Chapters</a>
                          <a class="dropdown-item" href="/coi/DiversityERG/NEXT/Pages/NEXT-EventChecklist.aspx">Hosting an Event</a>
-                         <a class="dropdown-item" href="/coi/DiversityERG/NEXT/Pages/NEXT-Template.aspx">Getting Funding for Events</a>
+                         <a class="dropdown-item" href="/coi/DiversityERG/NEXT/Pages/NEXT-Template.aspx">Funding and Reimbursement Policy</a>
+                         <a class="dropdown-item" href="/coi/DiversityERG/NEXT/Pages/fundreq.aspx">Apply for Funding</a>
+
                        </div>
                     </li>
 
@@ -113,11 +123,11 @@ window.addEventListener("resize", resizeDivs);
                        <div class="dropdown-menu">
                          <a class="dropdown-item" href="/coi/DiversityERG/NEXT/Pages/NEXT-Template.aspx">Career Bootcamp</a>
                          <a class="dropdown-item" href="/coi/DiversityERG/NEXT/Pages/NEXT-Template.aspx">Building Your Brand</a>
-                         <a class="dropdown-item" href="/coi/DiversityERG/NEXT/Pages/NEXT-Template.aspx">Email Etiquette</a>
+                         <a class="dropdown-item" href="/coi/DiversityERG/NEXT/Pages/NEXT-EmailEtiquette.aspx">Email Etiquette</a>
                          <a class="dropdown-item" href="/coi/DiversityERG/NEXT/Pages/NEXT-Template.aspx">Business Etiquette</a>
                          <a class="dropdown-item" href="/coi/DiversityERG/NEXT/Pages/NEXT-Template.aspx">Career Development Plan</a>
                          <a class="dropdown-item" href="/coi/DiversityERG/NEXT/Pages/NEXT-Template.aspx">Mentoring</a>
-                         <a class="dropdown-item" href="/coi/DiversityERG/NEXT/Pages/NEXT-Template.aspx">Siemens Toolkit</a>
+                         <a class="dropdown-item" href="/coi/DiversityERG/NEXT/Pages/NEXT-Toolkit.aspx">Siemens Toolkit</a>
                        </div>
                     </li>
 <!--               -->
@@ -128,22 +138,22 @@ window.addEventListener("resize", resizeDivs);
                          About US
                        </a>
                        <div class="dropdown-menu">
-                         <a class="dropdown-item" href="/coi/DiversityERG/NEXT/Pages/NEXT-Template.aspx">About NEXT</a>
+                         <a class="dropdown-item" href="/coi/DiversityERG/NEXT/Pages/NEXT-About.aspx">About NEXT</a>
                          <a class="dropdown-item" href="/coi/DiversityERG/NEXT/Pages/NEXT-Leadership.aspx">Leadership Team</a>
                          <a class="dropdown-item" href="/coi/DiversityERG/NEXT/Pages/Impact.aspx">Our Impact</a>
-                         <a class="dropdown-item" href="/coi/DiversityERG/NEXT/Pages/NEXT-Template.aspx">Executive Sponsors</a>
-                         <a class="dropdown-item" href="/coi/DiversityERG/NEXT/Pages/NEXT-Template.aspx">Chapter Leads</a>
+                         <a class="dropdown-item" href="/coi/DiversityERG/NEXT/Pages/NEXT-ExecutiveSponsors.aspx">Executive Sponsors</a>
+                         <a class="dropdown-item" href="/coi/DiversityERG/NEXT/Pages/NEXT-ChapterLeads.aspx">Chapter Leads</a>
+                         <a class="dropdown-item" href="https://intranet.for.siemens.com/cms/083/en/about/org/Pages/us-diversity.aspx">Diversity @ Siemens</a>
+
                        </div>
                     </li>
-<!-- Link to Diversity -->
-      <li class="nav-item anchor">
-        <a class="nav-link navbar-right" id="Diversitylink" href="https://plconnect.industrysoftware.automation.siemens.com/coi/DiversityERG/SitePages/Community%20Home.aspx">Diversity</a>
-      </li>
+		  </ul>  
+                  <ul class="navbar-nav ml-auto">
 <!-- Link to Yammer -->
       <li class="nav-item anchor">
-        <a class="nav-link navbar-right" id="Yammerlink" href="https://www.yammer.com/siemens.com/#/threads/inGroup?type=in_group&feedId=17364746">Yammer</a>
+        <a class="nav-link navbar-right" id="Yammerlink" href="https://www.yammer.com/siemens.com/#/threads/inGroup?type=in_group&feedId=17364746"> <img src="/coi/DiversityERG/NEXT/SiteAssets/yammer.svg" style="height: 25px;"></a>
       </li> 
- 
+      </ul>
 		<asp:ContentPlaceHolder id="PlaceHolderTopNavBar"  runat="server"> </asp:ContentPlaceHolder>
 	</div>
 
